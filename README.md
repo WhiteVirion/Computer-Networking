@@ -1,2 +1,2 @@
 # Computer-Networking
-Лабораторные работы по дисциплине компьютерные системы и сети. 
+Tasks on the computer systems and networks discipline. 
