@@ -157,8 +157,8 @@ class ProxyServer:
 if __name__ == "__main__":
     #черный список
     BLACKLIST = [
-        "example.com",
-        "blockeddomain.com"
+        "store.steampowered.com",
+        "soundcloud.com"
     ]
 
     try:
