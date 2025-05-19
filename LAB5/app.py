@@ -118,6 +118,8 @@ def delete_resource(path):
 @app.route("/", methods=["GET", "PUT", "HEAD", "DELETE"])
 def root():
     if request.method == "GET":
+        if not os.listdir(STORAGE_ROOT):
+            return jsonify({"info": "Storage is empty"}), 200
         return get_resource("")
     elif request.method == "PUT":
         return upload_file("")
